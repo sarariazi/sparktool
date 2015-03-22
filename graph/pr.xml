@@ -1,0 +1,18 @@
+
+
+	<tool id="graph_cc" name="Page Rank">
+			 <description>Apply Page Rank algorithm</description>
+			 <command interpreter="spark-submit">pr.scala $input $output</command>
+			 <inputs>
+				 <param format="txt" name="input" type="data" label="Source file"/>
+			 </inputs>
+			 <outputs>
+				 <data format="txt" name="output" />
+			 </outputs>
+			 <help>
+					 Finds the ranking of nodes based on Page Rank algorithm.
+			 </help>   
+	</tool>
+
+
+

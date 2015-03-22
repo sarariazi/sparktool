@@ -1,0 +1,14 @@
+
+
+	<tool id="input" name="Flickr Dataset">
+			 <description>Flickr edge view file</description>
+			 <command interpreter="spark-submit">fl.scala $input $output</command>
+			 <outputs>
+				 <data format="txt" name="output" />
+			 </outputs>
+			 <help>
+			 </help>   
+	</tool>
+
+
+
